@@ -1,0 +1,11 @@
+{
+  "name": "resume-demo",
+  "version": "1.0.0",
+  "description": "MD简历模板",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "author": "2333Ge",
+  "license": "ISC"
+}

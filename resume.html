@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>简历模板</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="content"></div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+    <!-- 下载下来加个速 -->
+    <script src="./marked.min.js"></script>
+    <script>
+      fetch("resume.md")
+        .then((response) => response.text())
+        .then((text) => {
+          const content = document.getElementById("content");
+          content.innerHTML = marked.parse(text);
+        })
+        .catch((error) => {
+          console.error("Error fetching the markdown file:", error);
+          document.getElementById("content").textContent =
+            "Failed to load content.";
+        });
+    </script>
+  </body>
+</html>
