@@ -2,7 +2,10 @@
 
 ## 介绍
 
-- 使用marked.js渲染markdown，预定义样式
+使用marked.js渲染markdown，预定义了样式，简历默认打印效果如下
+
+![alt text](./image/image.png)
+
 
 ## 使用
 
