@@ -4,8 +4,11 @@
   "description": "MD简历模板",
   "main": "index.js",
   "scripts": {
-   
+    "start": "live-server --port=8080 --open=resume.html"
   },
   "author": "2333Ge",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }

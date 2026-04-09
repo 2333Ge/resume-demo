@@ -10,14 +10,13 @@
 ## 使用
 
 ```bash
-npm instal -g http-server
-# 当前目录执行
-http-server -p 8080
+npm install
+npm start
 ```
 
-打开 `http://localhost:8080/resume.html`
+浏览器会自动打开 `http://localhost:8080/resume.html`
 
-然后就可以修改自己的简历了，只需要修改`resume.md`即可
+修改 `resume.md` 保存后，浏览器会自动刷新，实时预览简历效果
 
 ## Thanks 
 
