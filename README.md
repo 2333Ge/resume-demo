@@ -10,7 +10,7 @@
 ## 使用
 
 ```bash
-npm instal -g http-server
+npm install -g http-server
 # 当前目录执行
 http-server -p 8080
 ```
