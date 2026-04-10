@@ -1,8 +1,8 @@
 body {
   width: 900px;
   font-family: "Microsoft Yahei", Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.75;
   background-color: #fff;
   color: #516272;
   margin: 0 auto;
@@ -80,7 +80,7 @@ h6 {
   -webkit-font-smoothing: antialiased;
   cursor: text;
   position: relative;
-  margin: 15px 0 5px;
+  margin: 18px 0 8px;
   padding: 0;
 }
 
@@ -135,7 +135,7 @@ li,
 table,
 pre {
   color: #000;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 hr {
